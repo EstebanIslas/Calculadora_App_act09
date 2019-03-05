@@ -17,9 +17,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        etxt_num1 = (EditText)findViewById(R.id.etxt_num1);
-        etxt_num2 = (EditText)findViewById(R.id.etxt_num2);
-        etxt_resultado = (EditText)findViewById(R.id.etxt_resultado);
+        etxt_num1 = (EditText)findViewById(R.id.etxt_numero1);
+        etxt_num2 = (EditText)findViewById(R.id.etxt_numero2);
+        etxt_resultado = (EditText)findViewById(R.id.etxt_result);
     }
 
     public void sumarOnClick(View view){
